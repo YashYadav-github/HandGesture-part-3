@@ -41,7 +41,7 @@ function gotResult(error, results){
     else{
         console.log(results);
         document.getElementById("result_gesture_name").innerHTML = results[0].label;
-        var prediction = results[0].label;
+        prediction = results[0].label;
         speak()
 
     }
